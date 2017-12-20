@@ -132,7 +132,7 @@ public class ClientActivity extends AppCompatActivity implements SalutDataCallba
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        salut.unregisterClient(true);
+        salut.unregisterClient(false);
     }
 
     @Override

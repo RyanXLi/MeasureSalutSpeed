@@ -88,7 +88,7 @@ public class HostActivity extends AppCompatActivity implements SalutDataCallback
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        salut.stopNetworkService(true);
+        salut.stopNetworkService(false);
     }
 
     @Override
